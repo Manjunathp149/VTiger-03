@@ -11,7 +11,7 @@ import GenericUtilities.BaseClassUtilities;
 public class ToCreateOrganizationTest extends BaseClassUtilities{
 
 	
-	@Test(groups="RegressionTest")
+	@Test //(groups="RegressionTest")
 	public void CreateOrganization()
 	{
 		

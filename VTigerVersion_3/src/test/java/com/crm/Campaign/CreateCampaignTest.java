@@ -32,7 +32,7 @@ public class CreateCampaignTest extends BaseClassUtilities {
 	Apply implicit wait
 	wd.WaitForPageToLoad(driver);*/
 	
-	@Test(groups="RegressionTest")
+	@Test   //(groups="RegressionTest")
 	public void createCampaign() throws IOException, Throwable
 	{
 	//To get random number
@@ -41,7 +41,7 @@ public class CreateCampaignTest extends BaseClassUtilities {
 	//Fetchinbg data from excel
 	String campname=eLib.Readfromexcel("campname", 1, 1)+rannum;
 	
-	//Click on Product major tab in the Home page 
+	//Click on Campaign major tab in the Home page 
 	HomePage h=new HomePage(driver);
 	h.Clickcampaign(driver);
 	
